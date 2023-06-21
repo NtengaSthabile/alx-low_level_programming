@@ -4,21 +4,29 @@
 
 /**
  * main - The last digit is greater than 5,zero and less 6
- *
- *Return: Always 0 
+*
+*Return: Always 0 
 */
 int main(void)
-	
 {
-	int n;		
+	int n;
 
-		srand(time(0));
-		n = rand() - RAND_MAX / 2;
-	if (n% > 5)
-		printf("last digit of %i is greater than 5\n", n);
-	if (n% == 0)
-		printf("last digit of %i is zero\n", n);
-	if (n% < 6)
-		printf("last digit of %i is less than 6\n", n)
-	return (0);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+
+	if (lastd > 5)
+	{
+		printf("last digit of %i is %i and is greater than 5\n", n last);
+		}
+		else if (lastd == 0)
+		{
+		print("Last digit of %i is %i and is 0\n", n, lastd);
+		}
+		else if (lastd < 6 && lastd != 0)
+		{
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, lastd);
+		}
+		return (0);
 }
+
+
