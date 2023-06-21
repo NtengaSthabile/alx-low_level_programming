@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <sdlib.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
@@ -9,13 +9,14 @@
  */
 int main(void)
 {
-	char i;
+	char low;
 
-	for (i = 'A'; i < = 'Z'; i++)
+	for (low = 'a'; low <= 'z'; low++)
+	putchar(low);
 
-		putchar(i);
-	for (i = 'a'; i < = 'z'; i++)
-		putchar(i);
-		putchar('\n')
+	for (low = 'A'; low <= 'Z'; low++)
+	putchar(low);
+	putchar('\n');
+
 	return (0);
 }
