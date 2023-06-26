@@ -6,10 +6,10 @@
  *
  * Return: nothing
  */
-void swap_int(int *a, int *b);
-
-/* The function that swap values of two integers.*/
+void swap_int(int *a, int *b)
+/* the function that swap values of two integers. */
 {
+
 	int temp = *a;
 	*a = *b;
 	*b = temp;
