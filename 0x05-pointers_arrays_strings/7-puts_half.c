@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 
 /**
  * puts_half - a funtion that print half of a string
@@ -28,5 +28,7 @@ void puts_half(char *str)
 	{
 	_putchar(str[k]);
 	}
+	}
 	_putchar('\n');
 }
+	
