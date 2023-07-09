@@ -4,13 +4,13 @@
 /**
  * main - Prints the number of args
  * @argc: argument count
- * @argc: argument vector
+ * @argv: argument vector
  *
  * Return: Always zero
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	(void) argc;
+	(void) argv;
 	printf("%d\n", argc - 1);
 	return (0);
 }
