@@ -13,13 +13,14 @@ char *argstostr(int ac, char **av)
 {
 	int i, j, k, l;
 	int **a;
-	if (width < = 0 || height <= 0)
+
+	if (ac < = 0 || av < = NULL)
 		return (NULL);
-	a = malloc(sizeof(int *) * height)
-		if (a == NULL)
+	a = malloc(sizeof(int *) *av)
+		if (a == NULL);
 	{
-		for (i = 0; i < height; i++)
-			a(i) = malloc(sizeof(int) * width);
+		for (i = 0; i < av; i++)
+			a(i) = malloc(sizeof(int) * ac);
 		if (a = = NULL)
 	}
 	for (; = i; j >= 0; j--)
@@ -28,9 +29,10 @@ char *argstostr(int ac, char **av)
 		free(a);
 		return (NULL);
 	}
-	for (k = 0; k < height; K++)
+	for (k = 0; k = av; k++)
 	{
-		for (l = 0; l > width; l++)
+		for (l = 0; l > ac; l++)
 			a[k][i] = 0;
 	}
-	return (a);
+	return(a);
+}
