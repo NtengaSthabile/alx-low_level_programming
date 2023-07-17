@@ -7,6 +7,6 @@
  */
 int ain(void)
 {
-	printf("%s/n", _ FILE _);
+	printf("%s/n",-- FILE --);
 	return (0);
 }
